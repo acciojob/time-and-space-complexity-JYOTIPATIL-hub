@@ -1,25 +1,52 @@
-<!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Time and Space Complexity</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-   <h1>Time and Space Complexity </h1>
- <p>Time complexity is understood as the time taken by a program to run and complete the given task. For example, if a program takes 100 seconds to run while another program completes the same task in 200 seconds, then clearly the first program has low time complexity. Therefore, as a programmer, your goal is to reduce the time complexity of the code by optimizing it and making it more efficient.</p>
-<b>Space Complexity:</b>Space complexity is related to the amount of memory occupied by a program. In simple terms, any program’s space complexity is calculated by the total amount of space it occupies in the computer’s memory. So when we calculate space complexity, we take into account all the inputs of the program as well as the auxiliary space used. For example, if a program takes an array of size n as input, the space complexity of the program becomes O(n).
-
-
-
-
-
-	
-    <script type="text/javascript" src="./script.js">
-</script>
-
-</body>
-
-</html>
+    <h1>Time and Space Complexity</h1>
+    <p>Time complexity and space complexity are two ways of measuring the efficiency of an algorithm. They describe how the running time and the memory usage of an algorithm change as the size of the input increases.</p>
+    <h2>Time Complexity</h2>
+    <p>Time complexity is the amount of time that an algorithm takes to execute as a function of the input size. It is usually expressed using the <strong>Big O notation</strong>, which gives the upper bound of the worst-case scenario of the algorithm. For example, O(n) means that the algorithm takes at most linear time, O(n<sup>2</sup>) means that the algorithm takes at most quadratic time, and so on.</p>
+    <p>Some common factors that affect the time complexity of an algorithm are:</p>
+    <ul>
+        <li>The number of loops and nested loops</li>
+        <li>The type of data structures and operations used</li>
+        <li>The choice of sorting and searching algorithms</li>
+        <li>The optimization techniques applied</li>
+    </ul>
+    <h2>Space Complexity</h2>
+    <p>Space complexity is the amount of memory that an algorithm uses as a function of the input size. It is also usually expressed using the Big O notation, which gives the upper bound of the worst-case scenario of the algorithm. For example, O(1) means that the algorithm uses constant space, O(n) means that the algorithm uses linear space, and so on.</p>
+    <p>Some common factors that affect the space complexity of an algorithm are:</p>
+    <ul>
+        <li>The size and type of the input</li>
+        <li>The number and size of the variables and data structures used</li>
+        <li>The recursion depth and stack size</li>
+        <li>The garbage collection and memory management mechanisms</li>
+    </ul>
+    <h2>Examples</h2>
+    <p>Here are some examples of algorithms and their time and space complexities:</p>
+    <table>
+        <tr>
+            <th>Algorithm</th>
+            <th>Time Complexity</th>
+            <th>Space Complexity</th>
+        </tr>
+        <tr>
+            <td>Linear Search</td>
+            <td>O(n)</td>
+            <td>O(1)</td>
+        </tr>
+        <tr>
+            <td>Binary Search</td>
+            <td>O(log n)</td>
+            <td>O(1)</td>
+        </tr>
+        <tr>
+            <td>Bubble Sort</td>
+            <td>O(n<sup>2</sup>)</td>
+            <td>O(1)</td>
+        </tr>
+        <tr>
+            <td>Merge Sort</td>
+            <td>O(n log n)</td>
+            <td>O(n
